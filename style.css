@@ -1,0 +1,52 @@
+body{
+    background-color: aliceblue;
+    margin:0;
+    display: flex;
+    justify-content: center;
+
+}
+div{
+    width:350px;
+    height:500px;
+    background-color: lightcoral;
+    border-radius: 2%;
+    padding: 1px 10px 70px 10px;
+    margin:80px;   
+    box-shadow: 16px 10px 16px 0 rgba(0, 0, 0, 0.2), 10px 12px 20px 10px rgba(0, 0, 0, 0.19); 
+}
+fieldset{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    margin: 0%;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    display: block;
+    width: 95%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 22px;
+}
+button{
+    margin-top: 10px;
+    display: block;
+    width:100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 32px;
+}
+.inline{
+    display: inline;
+    margin: 0;
+}
+label{
+    margin-bottom: 5px;
+}
+h1{
+    width:100px;
+}
+#result{
+    width:100%;
+}

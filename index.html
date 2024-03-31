@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>SIMPLE CALCULATOR</title>
+    </head>
+    <body>
+        <form id="form">
+        <div>
+            <h1>MINI CALCULATOR</h1>
+            <fieldset><legend>Select An Operation</legend>
+                <label class="inline">Addition<input type="radio" id="add" checked name="operation-type" value="+"/></label>
+                <label class="inline">Subtraction<input type="radio" id="sub" name="operation-type" value="-"/></label>
+                <label class="inline">Multiplication<input type="radio" id="mul" name="operation-type" value="*"/></label>
+                <label class="inline">Division<input type="radio" id="div" name="operation-type" value="/"/></label>
+            </fieldset>           
+            <label for="first">Enter First Number : <input type="number" id="first"></label>
+            <label for="second">Enter Second Number : <input type="number" id="second"></label>
+            <button id="btn">Submit</button>
+            <span><h1 id="result"> Result : </h1></span>
+            </div>
+            <script src="script.js"></script>
+        </form>
+    </body>
+</html>
